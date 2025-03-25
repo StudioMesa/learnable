@@ -2055,6 +2055,10 @@ section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-b
     grid-template-columns: 1fr;
   }
 }
+/*Hide past events*/
+.eventlist.eventlist--past {
+  display: none!important;
+}
 /*Event Grid Container*/
 .events {
   padding-top: var(--sqs-mobile-site-gutter) !important;
