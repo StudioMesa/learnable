@@ -589,7 +589,6 @@ button[type="submit"]:after,
   /*Make Content Blog Width*/
   /*Blog Title Wrap*/
   /*Category Meta*/
-  /*Remove link from author item*/
   /*Author Name*/
   /*Blog Date*/
   /*Remove Author Bio + Website*/
@@ -674,11 +673,6 @@ button[type="submit"]:after,
   letter-spacing: 0.07em !important;
   font-size: 10px!important;
   transition: var(--trans);
-  pointer-events: none;
-}
-.tweak-blog-item-width-narrow .blog-item-author-profile-wrapper a {
-  pointer-events: none!important;
-  cursor: default!important;
 }
 .tweak-blog-item-width-narrow .blog-item-wrapper .author-name {
   font-family: var(--heading), serif !important;
