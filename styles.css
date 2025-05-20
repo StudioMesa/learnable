@@ -242,12 +242,6 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
   text-decoration: none!important;
   background: none!important;
 }
-/*Add underline to nav hover*/
-.header-nav-item--collection:hover {
-  text-decoration: underline!important;
-  text-underline-offset: 4px!important;
-  text-decoration-color: var(--white) !important;
-}
 /*Remove Right Padding from Burger*/
 .header-burger-btn.burger {
   padding-right: 0!important;
@@ -627,7 +621,6 @@ button[type="submit"]:after,
   /*Make Content Blog Width*/
   /*Blog Title Wrap*/
   /*Category Meta*/
-  /*Remove link from author item*/
   /*Author Name*/
   /*Blog Date*/
   /*Remove Author Bio + Website*/
@@ -715,11 +708,6 @@ button[type="submit"]:after,
   font-size: 10px!important;
   font-weight: 700!important;
   transition: var(--trans);
-  pointer-events: none;
-}
-.tweak-blog-item-width-narrow .blog-item-author-profile-wrapper a {
-  pointer-events: none!important;
-  cursor: default!important;
 }
 .tweak-blog-item-width-narrow .blog-item-wrapper .author-name {
   font-family: var(--heading), serif !important;
