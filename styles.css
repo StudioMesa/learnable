@@ -1,4 +1,4 @@
-/*Learnable CSS — Updated 11/20/2025*/
+/*Learnable CSS — Updated 04/15/2026*/
 /*Site Background Color*/
 body {
   background-color: var(--body-background) !important;
@@ -1955,7 +1955,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
   }
 }
 /*Adjust section padding*/
-section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-blog-basic-grid .content {
+section[data-current-context*='"typeName":"blog-basic-grid"'].collection-type-blog-basic-grid .content {
   display: flex!important;
   align-items: center!important;
   justify-content: center!important;
@@ -1965,13 +1965,13 @@ section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-b
   padding-right: var(--sqs-site-gutter);
 }
 @media screen and (max-width: 767px) {
-  section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-blog-basic-grid .content {
+  section[data-current-context*='"typeName":"blog-basic-grid"'].collection-type-blog-basic-grid .content {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 @media screen and (max-width: 500px) {
-  section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-blog-basic-grid .content {
+  section[data-current-context*='"typeName":"blog-basic-grid"'].collection-type-blog-basic-grid .content {
     padding-left: var(--sqs-mobile-site-gutter);
     padding-right: var(--sqs-mobile-site-gutter);
   }
