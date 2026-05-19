@@ -1,4 +1,4 @@
-/*Learnable CSS — Updated 04/20/2026*/
+/*Learnable CSS — Updated 05/19/2026*/
 /*Site Background Color*/
 body {
   background-color: var(--body-background) !important;
@@ -2444,7 +2444,8 @@ section[data-current-styles*='"customSectionHeight": 1'].vertical-alignment--top
   padding-bottom: 0!important;
 }
 /*Hide Archive Block*/
-.sqs-block.archive-block.sqs-block-archive {
+.sqs-block.archive-block.sqs-block-archive,
+.sqs-block-website-component.sqs-block-archive {
   display: none!important;
 }
 /*Summary Filters*/
