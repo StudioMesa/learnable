@@ -2348,7 +2348,8 @@ section[data-current-styles*='"customSectionHeight": 1'].vertical-alignment--top
   padding-bottom: 0!important;
 }
 /*Hide Archive Block*/
-.sqs-block.archive-block.sqs-block-archive {
+.sqs-block.archive-block.sqs-block-archive,
+.sqs-block-website-component.sqs-block-archive {
   display: none!important;
 }
 /*Summary Filters*/
