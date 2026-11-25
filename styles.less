@@ -1714,7 +1714,7 @@ padding-top:40px;
 padding-bottom:40px; }
 padding-left:var(--sqs-site-gutter);
 padding-right:var(--sqs-site-gutter);
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
 padding-left:var(--sqs-mobile-site-gutter);
 padding-right:var(--sqs-mobile-site-gutter);}}
 
@@ -2442,7 +2442,7 @@ background-color: var(--accent-bold);}}}
 /*Blog post (blogItem component): the post has no side gutter below 767px on the rebuilt
 section, so text and images touch the screen edge. Add the mobile gutter back.
 Only matches the rebuilt section; older sites are untouched.*/
-@media screen and (max-width:766px){
+@media screen and (max-width:767px){
 .tweak-blog-item-width-narrow .cdk-section[data-definition-name="website.components.blogItem"] article.h-entry{
 padding-left:var(--sqs-mobile-site-gutter)!important;
 padding-right:var(--sqs-mobile-site-gutter)!important;}}
