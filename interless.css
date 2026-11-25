@@ -1918,6 +1918,30 @@ section[data-current-context*='"typeName": "blog-basic-grid"'].collection-type-b
     padding-right: var(--sqs-mobile-site-gutter);
   }
 }
+/*Same padding for Squarespace's rebuilt blog list section (website.components.blogList),
+which has no data-current-context attribute or collection-type class. Kept as its own
+rule so the original rule above is untouched and still applies in browsers without :has().*/
+section[data-definition-name="website.components.blogList"] .content:has(> .blog-basic-grid.collection-content-wrapper) {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: var(--sqs-site-gutter);
+  padding-right: var(--sqs-site-gutter);
+}
+@media screen and (max-width: 767px) {
+  section[data-definition-name="website.components.blogList"] .content:has(> .blog-basic-grid.collection-content-wrapper) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section[data-definition-name="website.components.blogList"] .content:has(> .blog-basic-grid.collection-content-wrapper) {
+    padding-left: var(--sqs-mobile-site-gutter);
+    padding-right: var(--sqs-mobile-site-gutter);
+  }
+}
 /*2 Columns for Tablet*/
 @media screen and (min-width: 767px) and (max-width: 1000px) {
   .blog-basic-grid {
