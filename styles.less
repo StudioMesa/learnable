@@ -2436,3 +2436,13 @@ border-bottom: 1px solid rgba(255,255,255,0.1);
 transition:var(--trans);
 &:hover{
 background-color: var(--accent-bold);}}}
+
+
+//---NEW SQUARESPACE COMPONENTS---//
+/*Blog post (blogItem component): the post has no side gutter below 767px on the rebuilt
+section, so text and images touch the screen edge. Add the mobile gutter back.
+Only matches the rebuilt section; older sites are untouched.*/
+@media screen and (max-width:766px){
+.tweak-blog-item-width-narrow .cdk-section[data-definition-name="website.components.blogItem"] article.h-entry{
+padding-left:var(--sqs-mobile-site-gutter)!important;
+padding-right:var(--sqs-mobile-site-gutter)!important;}}
